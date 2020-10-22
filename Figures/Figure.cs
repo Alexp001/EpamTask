@@ -10,7 +10,6 @@ namespace Figures
         {
             points = new Point[Size];
         }
-
         public abstract double Area();
         abstract public String FigureType();
         public virtual double Perimeter()

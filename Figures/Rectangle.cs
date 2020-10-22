@@ -16,6 +16,7 @@ namespace Figures
             points[3] = d;
         }
 
+
         public override String FigureType()
         {
             return "Rectangle";

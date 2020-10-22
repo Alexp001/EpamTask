@@ -25,5 +25,6 @@ namespace Figures
         {
             return 1.0 / 2 * Point.LengthStraight(points[0], points[2]) * Point.LengthStraight(points[1], points[3]);
         }
+
     }
 }

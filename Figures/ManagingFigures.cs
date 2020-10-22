@@ -9,7 +9,6 @@ namespace Figures
         private const int NumberFigures = 9;
         private static readonly String[] NameFigures = { "Окружность", "Треугольник", "Трапиция", "Квадрат", "Прямоугольник", "Ромб", "Параллелограмм", "Произвольный четырехугольник", "Многоугольник" };
 
-
         private static List<Figure> Figures = new List<Figure>();
 
         private static double[] AverageArea = new double[NumberFigures];

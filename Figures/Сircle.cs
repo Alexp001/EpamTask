@@ -12,6 +12,7 @@ namespace Figures
             points[1] = b;
         }
 
+
         public override String FigureType()
         {
             return "Сircle";

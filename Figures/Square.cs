@@ -15,7 +15,6 @@ namespace Figures
             points[3] = new Point();
             points[3] = d;
         }
-
         public override String FigureType()
         {
             return "Square";

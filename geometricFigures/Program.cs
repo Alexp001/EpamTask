@@ -10,8 +10,7 @@ namespace geometricFigures
             ManagingFigures.CreateFigures();
             ManagingFigures.CalculationArea();
             
-            Console.WriteLine(" ");
-            
+            Console.WriteLine(" "); 
             ManagingFigures.CalculationPerimeter();
            
             Console.WriteLine(" ");

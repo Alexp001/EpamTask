@@ -14,6 +14,7 @@ namespace Figures
             points[2] = c;
         }
 
+
         public override String FigureType()
         {
             return "Triangle";

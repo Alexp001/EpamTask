@@ -42,6 +42,7 @@ namespace Figures
         {
             Console.Write($"( {a.x}, {a.y} ) ");
         }
+
     }
 }
 

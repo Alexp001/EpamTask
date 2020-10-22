@@ -18,6 +18,7 @@ namespace Figures
             return "Polygon";
         }
 
+
         public override double Area()
         {
             double area = 0;
