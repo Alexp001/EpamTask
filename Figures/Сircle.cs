@@ -12,6 +12,10 @@ namespace Figures
             points[1] = b;
         }
 
+        public override String FigureType()
+        {
+            return "Сircle";
+        }
         public override double Area()
         {
             return Math.Pow(Point.LengthStraight(points[0], points[1]), 2) * Math.PI;

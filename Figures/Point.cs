@@ -2,7 +2,6 @@
 
 namespace Figures
 {
-
     public class Point
     {
         public double x { get; set; }

@@ -1,4 +1,6 @@
-﻿namespace Figures
+﻿using System;
+
+namespace Figures
 {
     public abstract class Figure
     {
@@ -10,6 +12,7 @@
         }
 
         public abstract double Area();
+        abstract public String FigureType();
         public virtual double Perimeter()
         {
             double Perimetr = 0;

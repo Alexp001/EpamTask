@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Figures
 {
@@ -16,6 +12,11 @@ namespace Figures
             points[1] = b;
             points[2] = new Point();
             points[2] = c;
+        }
+
+        public override String FigureType()
+        {
+            return "Triangle";
         }
         public override double Area()
         {

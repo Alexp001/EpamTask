@@ -1,4 +1,6 @@
-﻿namespace Figures
+﻿using System;
+
+namespace Figures
 {
     public class Rhombus : Figure
     {
@@ -12,6 +14,11 @@
             points[2] = c;
             points[3] = new Point();
             points[3] = d;
+        }
+
+        public override String FigureType()
+        {
+            return "Rhombus";
         }
 
         public override double Area()

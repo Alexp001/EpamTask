@@ -16,6 +16,10 @@ namespace Figures
             points[3] = d;
         }
 
+        public override String FigureType()
+        {
+            return "Square";
+        }
         public override double Area()
         {
             return Math.Pow(Point.LengthStraight(points[0], points[1]), 2);

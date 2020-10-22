@@ -1,4 +1,6 @@
-﻿namespace Figures
+﻿using System;
+
+namespace Figures
 {
     public class Rectangle : Figure
     {
@@ -14,6 +16,10 @@
             points[3] = d;
         }
 
+        public override String FigureType()
+        {
+            return "Rectangle";
+        }
         public override double Area()
         {
             return Point.LengthStraight(points[0], points[1]) * Point.LengthStraight(points[1], points[2]);

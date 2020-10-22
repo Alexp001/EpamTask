@@ -16,6 +16,11 @@ namespace Figures
             points[3] = d;
         }
 
+        public override String FigureType()
+        {
+            return "Parallelogram";
+        }
+
         public override double Area()
         {
             return Math.Abs(Math.Abs(points[0].x - points[1].x) * Math.Abs(points[0].y - points[3].y) - Math.Abs(points[0].y - points[1].y) * Math.Abs(points[0].x - points[3].x));

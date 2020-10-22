@@ -13,7 +13,7 @@ namespace geometricFigures
             Console.WriteLine(" ");
             
             ManagingFigures.CalculationPerimeter();
-            
+           
             Console.WriteLine(" ");
             ManagingFigures.SearchMaxArea();
             
